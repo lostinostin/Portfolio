@@ -1,148 +1,153 @@
-body {
-    margin:0px;
-    background-image: url("../images/psychedelic_pattern.png");
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-image: url("../images/bright_squares.png");
 }
 
-header {
-    height: 80px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
+.container {
+	    width: 100%;
+	}
+
+.container-fluid {
+	padding: 0px;
+
 }
 
-h2 {
-	font-family: 'Times New Roman';
-    color: #4aaaa5;
-    font-size: 30px;
+.navbar {
+	border-radius: 0px;
+	background-color: #1d2120;
+	margin-bottom: 0px;
 }
 
-a {
-	text-decoration: none;
-	color: #777777;
+.navbar-brand {
+	font-family: 'Lobster', cursive;
 }
 
-#container {
-	width: 960px;
-	padding-left: 160px;
-	clear: both;
+.container .jumbotron {
+	padding: 0;
+    border-radius: 0px;
+    /* margin-top: -20px; */
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
+	}
+
+img {
+	height: 100%;
+	width: 100%;
 }
 
-#top {
-	font-size: 30px;
-	font-family: 'Times New Roman';
-	color: whitesmoke;
-    float: left;
-    margin-left: 110px;
-    margin-top: -1px;
-    background-color: #4aaaa5;
-    padding: 25px 25px 26px 25px;
+.cover {
+	object-fit: cover;
 }
 
-#apc {
+.row {
+	margin: 0px;
+}
+
+#more {
+	width: 100%;
+    padding-top: 0px;
+    background-color: rgba(90, 92, 81, 0.27);
+    padding-top: 30px;
+}
+
+/*.col-md-4 {
+	padding-right: 0px; 
+	padding-left: 0px;
+	margin-top: -30px;
+}*/
+
+.thumbnail {
+	margin: 0px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgba(255, 255, 0, 0);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.thumbnail .caption {
+
+}
+
+p {
+	font-family: 'Droid Sans Mono';
+}
+
+
+
+.thumbnail>img {
+    margin-top: -4px;
+    border-radius: 100%;
+    border: solid 1px gray;
+    height:250px;
+    width: 250px;
+}
+
+.img-rounded {
+    background-size: 160%;
+    margin-top: -4px;
+    border-radius: 100%;
+    border: solid 1px gray;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    padding-left: 106px;
+    font-family: 'Droid Sans'
+ }
+
+ #events {
+ 	padding-left: 170px;
+ }
+
+ #events_caption {
+
+ }
+
+ #spotlight {
+ 	padding-left: 152px;
+ }
+
+ #discussions {
+ 	padding-left: 125px;
+ }
+
+.thumbnail .btn {
 	float: right;
-    margin-right: 150px;
-    margin-top: 35px;
-    letter-spacing: 6px;
-    color: #777777;
-    font-family: sans-serif;
+	margin-right: 20px;
+	border-color: #5a5c51;
+    background-color: #bcd5d1
 }
 
-#name {
-	margin-left: 10px;
+#about {
+	height: 400px;
+    background-color: #ba9077
+;
 }
 
-.biography {
-	margin: 50px;
-	font-family:'Arial';
+/*.row {
+	width: 100%;
 }
 
-#connect {
-	margin-left: 20px;
+@media (min-width: 768px){
+	.navbar {
+	    border-radius: 0px;
+	}
 }
 
-.quote {
-	float: right;
-    max-width: 270px;
-    padding-right: 30px;
-    padding-top: 10px;
-    font-family: 'Arial';
-    font-size: 110%;
-}
+/*@media (min-width: 768px) {
+	.container {
+	    width: 100%;
+	}
+}*/
 
-#signature {
-	font-size: 80%;
-	float: right;
-    margin-right: 50px;
-}
 
-#main-bio {
-	float: left;
-    width: 650px;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-}
 
-#biojuice {
-	    margin: 30px;
-
-}
-
-#contact-info {
-	float: right;
-	background-color: rgba(255, 255, 255, 0.8);
-	width: 270px;
-	position: relative;
-    margin-top: 30px;
-    height: 200px;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-}
-
-#connectjuice {
- 	margin: 30px;
-}
-
-#icons {
-	margin-left: 8px;
-    margin-top: 30px;
-}
-
-#github {
-	position: absolute;
-}
-
-#linkedin {
-	position: absolute;
-    margin-left: 70px;
-}
-
-#so {
-	margin-left: 140px;
-}
-
-#footer {
-	height: 50px;
-    bottom: 0;
-    left: 0;
-    background-color: #666666;
-    border-style: solid;
-    border-top-width: 5px;
-    border-color: #4aaaa5;
-    clear: both;
-}
-
-#footer p {
-	text-align: center;
-	margin-right: 35px;
-	font-size: 50%;
-    margin-top: 18px;
-    font-family: 'Helvetica';
-}

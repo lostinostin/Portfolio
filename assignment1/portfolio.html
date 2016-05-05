@@ -1,92 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>(-_-;)</title>
+	<title></title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News+Cycle:400,700">-->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<!--<link rel="stylesheet" href="assets/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">-->
+	<link rel="stylesheet" href="assets/css/style.css">
 
-	<!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">
 </head>
 <body>
-	<header>
-		<h1 id="top">Chris Crawford</h1>
-		<div id="apc">
-			<a id="about" href="index.html"> About  |</a>
-			<a id="port" href="portfolio.html">  Portfolio  |</a>
-			<a id="contact" href="contact.html">  Contact</a>
-		</div>
-	</header>
 
-	<section id="container">
-		<div id="main">
-			<div id="portfoliojuice">
-				<h2 id="portfolio">Portfolio</h2>
-				<hr>
-				<div class="projects">
-					<div id="ttt">
-						<div id="ttt_banner">
-							<p>Hangman</p>
-						</div>
-					</div>
-					<div id="rpg">
-						<div id="rpg_banner">
-							<p>RPG Game</p>
-						</div>
-					</div>
-					<div id="x">
-						<div id="x_banner">
-							<p>Trivia</p>
-						</div>
-					</div>
-					<div id="y">
-						<div id="y_banner">
-							<p>UT Info Widget</p>
-						</div>
-					</div>
-					<div id="z">
-						<div id="z_banner">
-							<p>Rock Paper Scissors</p>
-						</div>
-					</div>
-				</div>
-					<!--<div>
-						<form>
-							First Name:<br>
-							<input type="text" name="First Name"><br>
-							<br>
-							Last Name:<br>
-							<input type="text" name="Last Name" cols="30">
-						</form>
-					</div>
-					<br>
-					<div>
-						Comments:<br>
-						<textarea name="message" rows="10" cols="30">If we didnt start cleanin things up hip hop bout to leave the south RIP Pimp C</textarea>
-					</div>-->
+	<nav class="navbar navbar-inverse">
+	  <!--<div class="container-fluid">-->
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Chris Crawford</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="#">About</a></li>
+	      <li><a href="#">Portfolio</a></li> 
+	      <li><a href="#">Contact</a></li> 
+	    </ul>
+	  </div>
+	</nav>
+
+<!--<div class="container-fluid">-->
+	<div class="container">
+		<div class="row">	
+			<div class="jumbotron">
+			  	<div class="container-fluid">
+			    	<img src="assets/images/wits.jpg" alt="..." class="cover">
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="container space">
+			<div class="row">
+				<section id="space"></section>
 			</div>
 		</div>
 
-		<div id="contact-info">
-			<section id="connectjuice">
-				<h2 id="connect">Connect</h2>
-				<hr>
-				<div id="icons">
+	<section id="row-2">
+		<div class="container">
+			<div class="row">
+			 	<div class="col-md-4">
+			    	<div class="thumbnail">
+			      			<img src="assets/images/gallows.jpg" alt="..." class="img-rounded">
+			     		<div class="caption">
+					        <h3 id="discussions">Hangman</h3>
+					        <p>I decided to keep most of the notes I took from my tenure as a baccalaureate. Here you'll find a rigorous examiniation of everything from Ancient Greek philosophy to what it's like to be a bat. If you're curious what the content of these courses were like or you want to add your two cents to a topic, click the button below.</p>
+			      		</div>
+			    	</div>
+			  	</div>
+			
+			 	<div class="col-md-4">
+			    	<div class="thumbnail">
+			      		<img src="assets/images/rpg.png" alt="...">
+			     		<div class="caption">
+					        <h3 id="spotlight">RPG</h3>
+					        <p>The person I am today is made possible by the many people I've spent a good amount of time with throughout my life. I want to make sure credit is given where credit is due, so I'd like to introduce you to all the amazing people who intersected the path I've been on and the ones who I still ride with.</p>
+			      		</div>
+			    	</div>
+			  	</div>
+
+			 	<div class="col-md-4">
+			    	<div class="thumbnail">
+			      		<img src="assets/images/rps.png" alt="...">
+			     		<div class="caption">
+					        <h3 id="events">RPS</h3>
+					        <p>Time is one of my most valuable assets and I love sharing it with people old and new. However, I'm a fairly busy guy. If you want to keep up with what I'm doing and would like to join me, or you want to extend an invitation to an event on your calendar, click below! </p>
+			      		</div>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+			  	<div class="col-sm-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Play
+        			</button>
+			  	</div>
+
+			  	<div class="col-sm-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Play
+        			</button>
+			  	</div>
+
+			  	<div class="col-sm-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Play
+        			</button>
+			  	</div>
+			</div>
+		</div>
+	</section>
+				
+
+		<div class="container">
+			<div class="row">
+			 	<div class="col-md-4">
+			    	<div class="thumbnail">
+			      			<img src="assets/images/howtogoogle.png" alt="..." class="img-rounded">
+			     		<div class="caption">
+					        <h3 id="discussions">Info Widget</h3>
+					        <p>I decided to keep most of the notes I took from my tenure as a baccalaureate. Here you'll find a rigorous examiniation of everything from Ancient Greek philosophy to what it's like to be a bat. If you're curious what the content of these courses were like or you want to add your two cents to a topic, click the button below.</p>
+			      		</div>
+			    	</div>
+			  	</div>
+			
+			 	<div class="col-md-4" id="read">
+			    	<div class="thumbnail">
+			      		<img src="assets/images/instant-messaging.jpg" alt="...">
+			     		<div class="caption">
+					        <h3 id="spotlight">Group Stats</h3>
+					        <p>The person I am today is made possible by the many people I've spent a good amount of time with throughout my life. I want to make sure credit is given where credit is due, so I'd like to introduce you to all the amazing people who intersected the path I've been on and the ones who I still ride with.</p>
+			      		</div>
+			    	</div>
+			  	</div>
+
+			 	<div class="col-md-4">
+			    	<div class="thumbnail">
+			      		<img src="assets/images/Trivia.jpg" alt="...">
+			     		<div class="caption">
+					        <h3 id="events">Trivia</h3>
+					        <p>Time is one of my most valuable assets and I love sharing it with people old and new. However, I'm a fairly busy guy. If you want to keep up with what I'm doing and would like to join me, or you want to extend an invitation to an event on your calendar, click below! </p>
+			      		</div>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+			  	<div class="col-md-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Get
+        			</button>
+			  	</div>
+
+			  	<div class="col-md-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Get
+        			</button>
+			  	</div>
+
+			  	<div class="col-md-4">
+			  		<button type="button" class="btn btn-default btn-sm">
+          				<span class="glyphicon glyphicon-menu-right"></span> Play
+        			</button>
+			  	</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<section id="about">
+					<div id="icons">
 					<a href="https://github.com/lostinostin" target="_blank"><div id="github">
-						<img src="assets/images/github.png" height="50px" width="50px">
+						<!--<img src="assets/images/github.png" height="50px" width="50px">-->
 					</div></a>
 					<a href="https://www.linkedin.com/in/christopher-crawford-a2331374
 " target="_blank"><div id="linkedin">
-						<img src="assets/images/linkedin.png" height="50px" width="50px">
+						<!--<img src="assets/images/github.png" height="50px" width="50px">-->
 					</div></a>
 					<a href="http://stackoverflow.com/users/6199105/correy-crawford?tab=profile" target="_blank"><div id="so">
-						<img src="assets/images/stackoverflow.png" height="50px" width="50px">
+						<!--<img src="assets/images/github.png" height="50px" width="50px">-->
 					</div></a>
 				</div>
-			</section>
+					
+				</section>
+			</div>
 		</div>
-	</section>
-	<div id="footer">
-		<p>&copy; Copyright 2016 Christopher Crawford</p>
+
 	</div>
+<!--</div>-->
+
 </body>
 </html>
+
